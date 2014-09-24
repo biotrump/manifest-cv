@@ -1,13 +1,11 @@
 <?xml version="1.0" ?><manifest>
 
-  <remote fetch="https://github.com/biotrump/opencv.git" name="openCV"/>
-  <remote fetch="https://github.com/Itseez/opencv.git" name="openCV-org"/>
-  <remote fetch="https://github.com/biotrump/v4l2-lib.git" name="v4l2-lib"/>
-  <remote fetch="https://github.com/biotrump/pico.git" name="pico"/>
-  <default remote="openCV" revision="2.4.x" sync-j="4"/>
+  <remote fetch="https://github.com/biotrump" name="biotrump"/>
+  <remote fetch="https://github.com/Itseez" name="openCV-org"/>
+  <default remote="biotrump" revision="2.4.x" sync-j="4"/>
 
   <!--  -->
   <project name="openCV" path="openCV"/>
-  <project name="v4l2-lib" path="v4l2-lib" remote="v4l2-lib" revision="2.4.x"/>
-  <project name="pico" path="pico" remote="pico" revision="2.4.x"/>
+  <project name="v4l2-lib" path="v4l2-lib"/>
+  <project name="pico" path="pico"/>
 </manifest>
