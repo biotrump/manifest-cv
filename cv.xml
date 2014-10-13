@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><manifest>
+  <!-- Thomas Tsai thomas@biotrump.com, thomas@life100.cc  -->
+  <!--  cmake 2.8 above is required to build th repos -->
+
+  <remote fetch="https://github.com/biotrump" name="biotrump"/>
+  <remote fetch="https://github.com/Itseez" name="openCV-org"/>
+  <default remote="biotrump" revision="2.4.x" sync-j="4"/>
+
+  <!--  Computer Vision and Mathematic Libs-->
+  <project name="openCV" path="openCV"/>
+  <project name="mlpack" path="mlpack" revision="master"/>
+
+  <!--  APPs -->
+  <project name="remotePPG" path="remotePPG"/>
+
+  <!--  Android APP -->
+  <project name="android-webcam" path="android/android-webcam" revision="master"/>
+
+  <!--Face Detection, Facial Landmark Detection  -->
+  <project name="pico" path="pico"/>
+  <project name="stasms" path="stasms" revision="4.1.0"/>
+
+  <!--Digital Signal Processing  -->
+  <project name="ICA-RADICAL" path="dsp/ICA-RADICAL" revision="master"/>
+
+  <!-- V4L2 Utility -->
+  <project name="v4l2-lib" path="v4l2/v4l2-lib"/>
+  <project name="v4l-capture" path="v4l2/v4l-capture" revision="master" />
+  <project name="v4l-utils" path="v4l2/v4l-utils" revision="1.6.0" />
+
+  <!--  Matlab and Octave-->
+  <project name="visual-pulse-monitor" path="octave/visual-pulse-monitor" revision="master" />
+  <project name="RADICAL-matlab" path="octave/RADICAL-matlab" revision="v1.2" />
+
+</manifest>
