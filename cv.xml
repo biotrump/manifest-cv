@@ -29,6 +29,9 @@
   <project name="v4l-capture" path="v4l2/v4l-capture" revision="master" />
   <project name="v4l-utils" path="v4l2/v4l-utils" revision="1.6.0" />
 
+  <!-- FFTS static lib -->
+  <project name="ffts" path="ffts" revision="master"/>
+
   <!--  Matlab and Octave-->
   <project name="visual-pulse-monitor" path="octave/visual-pulse-monitor" revision="master" />
   <project name="RADICAL-matlab" path="octave/RADICAL-matlab" revision="v1.2" />
