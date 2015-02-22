@@ -4,7 +4,7 @@
 
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
   <remote fetch="https://github.com/Itseez" name="openCV-org"/>
-  <default remote="biotrump" revision="2.4.x" sync-j="4"/>
+  <default remote="biotrump" revision="opencv-2.4.x" sync-j="4"/>
 
   <!--  Computer Vision and Mathematic Libs-->
   <project name="openCV" path="openCV"/>
