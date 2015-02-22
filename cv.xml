@@ -7,7 +7,7 @@
   <default remote="biotrump" revision="opencv-2.4.x" sync-j="4"/>
 
   <!--  Computer Vision and Mathematic Libs-->
-  <project name="openCV" path="openCV"/>
+  <project name="openCV" path="openCV" revision="2.4.x"/>
   <project name="mlpack" path="mlpack" revision="master"/>
 
   <!--  APPs -->
