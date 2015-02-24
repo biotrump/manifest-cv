@@ -4,7 +4,7 @@
 
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
   <remote fetch="https://github.com/Itseez" name="openCV-org"/>
-  <default remote="biotrump" revision="2.4.x" sync-j="4"/>
+  <default remote="biotrump" revision="master" sync-j="4"/>
 
   <!--  Computer Vision and Mathematic Libs-->
   <project name="openCV" path="openCV"/>
@@ -34,6 +34,8 @@
   <project name="ATLAS" path="ATLAS" revision="stable-3.10.2"/>
   <project name="lapack" path="lapack" revision="master"/>
   <project name="clapack" path="clapack" revision="cmake-3.2.1"/>
+  <!-- ATLAS -->
+  <project name="math-atlas" path="math-atlas" revision="stab310"/>
 
   <!--  Matlab and Octave-->
   <project name="visual-pulse-monitor" path="octave/visual-pulse-monitor" revision="master" />
