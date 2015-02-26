@@ -34,7 +34,7 @@
   <project name="lapack" path="lapack" revision="Rev1531"/>
   <project name="clapack" path="clapack" revision="cmake-3.2.1"/>
   <!-- ATLAS -->
-  <project name="math-atlas" path="math-atlas" revision="stab310"/>
+  <project name="ATLAS" path="ATLAS" revision="stable-3.10.2"/>
 
   <!--  Matlab and Octave-->
   <project name="visual-pulse-monitor" path="octave/visual-pulse-monitor" revision="master" />
