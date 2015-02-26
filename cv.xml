@@ -31,7 +31,7 @@
 
   <!-- FFTS static lib , BLAS, ATLAS, LAPACK-->
   <project name="ffts" path="ffts" revision="master"/>
-  <project name="lapack" path="lapack" revision="master"/>
+  <project name="lapack" path="lapack" revision="Rev1531"/>
   <project name="clapack" path="clapack" revision="cmake-3.2.1"/>
   <!-- ATLAS -->
   <project name="ATLAS" path="ATLAS" revision="stable-3.10.2"/>
