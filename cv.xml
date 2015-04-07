@@ -30,9 +30,13 @@
   <project name="v4l-utils" path="v4l2/v4l-utils" revision="1.6.0" />
 
   <!-- FFTS static lib , BLAS, ATLAS, LAPACK-->
-  <project name="ffts" path="ffts" revision="master"/>
-  <project name="lapack" path="lapack" revision="Rev1531"/>
   <project name="clapack" path="clapack" revision="cmake-3.2.1"/>
+  <project name="ffts" path="ffts" revision="master"/>
+  <project name="lapack" path="lapack" revision="master"/>
+
+  <!-- BLIS -->
+  <project name="blis" path="blis" revision="master"/>
+
   <!-- ATLAS -->
   <project name="ATLAS" path="ATLAS" revision="stable-3.10.2"/>
 
