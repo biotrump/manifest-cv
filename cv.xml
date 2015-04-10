@@ -35,7 +35,7 @@
 
   <!--Digital Signal Processing  -->
   <project name="ICA-RADICAL" path="dsp/ICA-RADICAL" revision="master"/>
-  <project name="dsp-lib" path="dsp/lib" revision="master"/>
+  <project name="dsp-lib" path="dsp/lib" revision="master-test-1"/>
 
   <!-- FFTS static lib -->
   <project name="ffts" path="dsp/ffts" revision="master"/>
