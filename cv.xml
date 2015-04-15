@@ -45,7 +45,7 @@
   <project name="lapack" path="dsp/LAPACK" revision="master"/>
 
   <!-- ATLAS for x86 -->
-  <project name="ATLAS" path="dsp/ATLAS" revision="stable-3.10.2"/>
+  <project name="ATLAS" path="dsp/ATLAS" revision="master"/>
 
   <!-- BLIS and libflame-->
   <project name="blis" path="dsp/blis" revision="master"/>
