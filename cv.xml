@@ -34,6 +34,7 @@
   <project name="v4l-utils" path="v4l2/v4l-utils" revision="1.6.0" />
 
   <!--Digital Signal Processing  -->
+  <project name="dsp" path="dsp" revision="master"/>
   <project name="ICA-RADICAL" path="dsp/ICA-RADICAL" revision="master"/>
   <project name="dsp-lib" path="dsp/lib" revision="master-test-1"/>
 
