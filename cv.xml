@@ -43,10 +43,10 @@
   <!-- BLAS, LAPACK, LAPACKE-->
   <project name="clapack" path="dsp/clapack" revision="cmake-3.2.1"/>
   <project name="lapack" path="dsp/LAPACK" revision="master"/>
-  <project name="lapack-rev1531" path="dsp/LAPACK-rev1531" revision="Rev1531"/>
 
   <!-- ATLAS for x86 -->
   <project name="ATLAS" path="dsp/ATLAS" revision="master"/>
+  <project name="lapack" path="dsp/ATLAS/LAPACK" revision="Rev1531"/>
 
   <!-- BLIS and libflame-->
   <project name="blis" path="dsp/blis" revision="master"/>
