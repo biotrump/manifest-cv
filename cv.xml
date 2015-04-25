@@ -27,6 +27,7 @@
   <!--Face Detection, Facial Landmark Detection  -->
   <project name="pico.git" path="cv/pico"/>
   <project name="stasms.git" path="cv/stasms" revision="4.1.0"/>
+  <project name="rPPG.git" path="cv/rPPG" revision="master"/>
 
   <!-- V4L2 Utility -->
   <project name="v4l2-lib.git" path="v4l2/v4l2-lib" revision="master"/>
