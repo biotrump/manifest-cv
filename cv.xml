@@ -53,4 +53,7 @@
   <project name="blis.git" path="dsp/blis" revision="master"/>
   <project name="libflame.git" path="dsp/libflame" revision="master"/>
 
+  <!-- android studio jni -->
+  <project name="jni-myheartbeat.git" path="dsp/jni/myheartbeat" revision="master"/>
+
 </manifest>
