@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><manifest>
+  <!-- Thomas Tsai thomas@biotrump.com, thomas@life100.cc  -->
+  <!--  cmake 2.8 above is required to build th repos -->
+
+  <remote fetch="https://github.com/biotrump" name="biotrump"/>
+  <remote fetch="ssh://git@192.168.9.54/thomastsai/" name="gitlab"/>
+  <remote fetch="https://github.com/Itseez" name="openCV-org"/>
+  <default remote="biotrump" revision="master" sync-j="4"/>
+
+  <!--  Computer Vision and Mathematic Libs-->
+  <project name="openCV.git" path="openCV" revision="2.4.x" />
+  <!--
+  <project name="mlpack" path="mlpack" revision="master"/>
+
+  -->
+
+  <!--  Matlab and Octave-->
+  <project name="visual-pulse-monitor.git" path="octave/visual-pulse-monitor" revision="master" />
+  <project name="RADICAL-matlab.git" path="octave/RADICAL-matlab" revision="v1.2" />
+
+  <!--  APPs -->
+  <project name="remotePPG.git" path="remotePPG"/>
+
+  <!--  Android APP -->
+  <project name="android-webcam.git" path="android/android-webcam" revision="master"/>
+
+  <!--Face Detection, Facial Landmark Detection  -->
+  <project name="pico.git" path="cv/pico"/>
+  <project name="stasms.git" path="cv/stasms" revision="4.1.0"/>
+  <project name="rPPG.git" path="cv/rPPG" revision="master"/>
+
+  <!-- V4L2 Utility -->
+  <project name="v4l2-lib.git" path="v4l2/v4l2-lib" revision="master"/>
+  <project name="v4l-capture.git" path="v4l2/v4l-capture" revision="master" />
+  <project name="v4l-utils.git" path="v4l2/v4l-utils" revision="1.6.0" />
+
+  <!--Digital Signal Processing  -->
+  <project name="dsp.git" path="dsp" revision="master"/>
+  <project name="ICA-RADICAL.git" path="dsp/ICA-RADICAL" revision="master"/>
+  <project name="dsp-lib.git" path="dsp/lib" revision="master-test-1"/>
+
+  <!-- FFTS static lib -->
+  <project name="ffts.git" path="dsp/ffts" revision="master"/>
+  <project name="ffte.git" path="dsp/ffte" revision="master"/>
+
+  <!-- BLAS, LAPACK, LAPACKE-->
+  <project name="clapack.git" path="dsp/clapack" revision="cmake-3.2.1"/>
+  <project name="lapack.git" path="dsp/LAPACK" revision="master"/>
+
+  <!-- ATLAS for x86 -->
+  <project name="ATLAS.git" path="dsp/ATLAS" revision="master"/>
+  <project name="lapack.git" path="dsp/ATLAS/LAPACK" revision="Rev1531"/>
+
+  <!-- BLIS and libflame-->
+  <project name="blis.git" path="dsp/blis" revision="master"/>
+  <project name="libflame.git" path="dsp/libflame" revision="master"/>
+
+  <!-- android studio jni -->
+  <project name="jni-myheartbeat.git" path="dsp/jni/myheartbeat" revision="master"/>
+
+</manifest>
