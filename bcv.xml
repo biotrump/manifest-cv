@@ -39,9 +39,10 @@
   <project name="ICA-RADICAL.git" path="dsp/ICA-RADICAL" revision="master"/>
   <project name="dsp-lib.git" path="dsp/lib" revision="master"/>
 
-  <!-- FFTS static lib -->
+  <!-- FFT static lib -->
   <project name="ffts.git" path="dsp/ffts" revision="master"/>
   <project name="ffte.git" path="dsp/ffte" revision="master"/>
+  <project name="nufft.git" path="dsp/nufft" revision="master"/>
 
   <!-- BLAS, LAPACK, LAPACKE-->
   <project name="clapack.git" path="dsp/clapack" revision="cmake-3.2.1"/>
