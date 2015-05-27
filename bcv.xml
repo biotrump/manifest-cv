@@ -17,6 +17,7 @@
   <!--  Matlab and Octave-->
   <project name="visual-pulse-monitor.git" path="octave/visual-pulse-monitor" revision="master" />
   <project name="RADICAL-matlab.git" path="octave/RADICAL-matlab" revision="v1.2" />
+  <project name="octave-fft-test.git" path="octave/fft-test" revision="master" />
 
   <!--  APPs -->
   <project name="remotePPG.git" path="remotePPG"/>
