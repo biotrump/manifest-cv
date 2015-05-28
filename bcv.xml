@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
   <remote fetch="ssh://git@192.168.9.54/thomastsai/" name="gitlab"/>
   <remote fetch="https://github.com/Itseez" name="openCV-org"/>
-  <default remote="biotrump" revision="master" sync-j="4"/>
+  <default remote="gitlab" revision="master" sync-j="4"/>
 
   <!--  Computer Vision and Mathematic Libs-->
   <project name="openCV.git" path="openCV" revision="2.4.x" />
