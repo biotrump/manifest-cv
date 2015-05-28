@@ -4,7 +4,7 @@
 
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
   <!--
-  <remote fetch="ssh://git@192.168.9.54/thomastsai/" name="gitlab"/>
+  <remote fetch="ssh://git@192.168.9.54/bcv/" name="gitlab"/>
   -->
   <remote fetch="ssh://git@192.168.9.54/bcv/" name="gitlab"/>
   <remote fetch="https://github.com/Itseez" name="openCV-org"/>
