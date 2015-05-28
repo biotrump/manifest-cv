@@ -2,9 +2,8 @@
   <!-- Thomas Tsai thomas@biotrump.com, thomas@life100.cc  -->
   <!--  cmake 2.8 above is required to build th repos -->
 
-  <remote fetch="https://github.com/biotrump" name="biotrump"/>
-  <remote fetch="ssh://git@192.168.9.54/thomastsai/" name="gitlab"/>
-  <remote fetch="https://github.com/Itseez" name="openCV-org"/>
+  <include name="bcv-core.xml"/>
+
   <default remote="biotrump" revision="master" sync-j="4"/>
 
   <!--  Computer Vision and Mathematic Libs-->
@@ -26,7 +25,6 @@
   <project name="android-webcam.git" path="android/android-webcam" revision="master"/>
 
   <!--Face Detection, Facial Landmark Detection  -->
-  <project name="pico.git" path="cv/pico"/>
   <project name="stasms.git" path="cv/stasms" revision="4.1.0"/>
   <project name="rPPG.git" path="cv/rPPG" revision="master"/>
 
@@ -38,7 +36,6 @@
   <!--Digital Signal Processing  -->
   <project name="dsp.git" path="dsp" revision="master"/>
   <project name="ICA-RADICAL.git" path="dsp/ICA-RADICAL" revision="master"/>
-  <project name="dsp-lib.git" path="dsp/lib" revision="master"/>
 
   <!-- FFT static lib -->
   <project name="ffts.git" path="dsp/ffts" revision="master"/>
