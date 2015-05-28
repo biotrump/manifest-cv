@@ -3,7 +3,10 @@
   <!--  cmake 2.8 above is required to build th repos -->
 
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
+  <!--
   <remote fetch="ssh://git@192.168.9.54/thomastsai/" name="gitlab"/>
+  -->
+  <remote fetch="ssh://git@192.168.9.54/bcv/" name="gitlab"/>
   <remote fetch="https://github.com/Itseez" name="openCV-org"/>
   <default remote="gitlab" revision="master" sync-j="4"/>
 
@@ -11,7 +14,6 @@
   <project name="openCV.git" path="openCV" revision="2.4.x" />
   <!--
   <project name="mlpack" path="mlpack" revision="master"/>
-
   -->
 
   <!--  Matlab and Octave-->
