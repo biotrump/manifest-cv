@@ -7,10 +7,9 @@
   <default remote="gitlab" revision="master" sync-j="4"/>
 
   <!--  Computer Vision and Mathematic Libs-->
-  <project name="openCV.git" path="openCV" revision="2.4.x" />
+  <project name="opencv.git" path="openCV" revision="2.4.x" />
   <!--
   <project name="mlpack" path="mlpack" revision="master"/>
-
   -->
 
   <!--  Matlab and Octave-->
