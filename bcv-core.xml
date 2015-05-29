@@ -1,7 +1,7 @@
 <?xml version="1.0" ?><manifest>
   <!-- Thomas Tsai thomas@biotrump.com, thomas@life100.cc  -->
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
-  <remote fetch="ssh://git@192.168.9.54/thomastsai/" name="gitlab"/>
+  <remote fetch="ssh://git@192.168.9.54/bcv/" name="gitlab"/>
   <remote fetch="https://thomastsai@bitbucket.org/thomastsai/" name="bitbucket"/>
 
   <!--  Computer Vision and Mathematic Libs-->
