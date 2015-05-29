@@ -4,7 +4,7 @@
 
   <include name="bcv-core.xml"/>
 
-  <default remote="gitlab" revision="master" sync-j="1"/>
+  <default remote="gitlab" revision="master" sync-j="8"/>
 
   <!--  Computer Vision and Mathematic Libs-->
   <project name="opencv.git" path="openCV" revision="2.4.x" />
