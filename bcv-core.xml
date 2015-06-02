@@ -2,12 +2,12 @@
   <!-- Thomas Tsai thomas@biotrump.com, thomas@life100.cc  -->
   <remote fetch="https://github.com/biotrump" name="biotrump"/>
   <remote fetch="ssh://git@192.168.9.54/bcv/" name="gitlab"/>
-  <remote fetch="https://thomastsai@bitbucket.org/thomastsai/" name="bitbucket"/>
+  <remote fetch="ssh://git@bitbucket.org/thomastsai" name="bitbucket"/>
 
   <!--  Computer Vision and Mathematic Libs-->
 
   <!--Face Detection, Facial Landmark Detection  -->
-  <project name="pico.git" path="cv/pico" remote="gitlab" revision="master"/>
+  <project name="cv-pico.git" path="cv/pico" remote="bitbucket" revision="master"/>
   <!--
   <project name="pico.git" path="cv/pico" remote="gitlab" revision="master"/>
   <project name="pico.git" path="cv/pico" remote="bitbucket" revision="master"/>
@@ -15,7 +15,7 @@
   -->
 
   <!--Digital Signal Processing  -->
-  <project name="dsp-lib.git" path="dsp/lib" remote="gitlab" revision="master"/>
+  <project name="dsp-core.git" path="dsp/core" remote="bitbucket" revision="master"/>
   <!--
   <project name="dsp-lib.git" path="dsp/lib" remote="gitlab" revision="master"/>
   <project name="dsp-lib.git" path="dsp/lib" remote="github" revision="master"/>
